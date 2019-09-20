@@ -21,16 +21,9 @@ public class collegeExample
         s1.setMarksSub3(35);
         s1.setMarksSub4(60);
         s1.setMarksSub5(69);
-         s1.calculatetotal();
-         s1.calculatepercentage();
+
         System.out.println(s1.getfullName());
-        System.out.println(s1.getMarksSub1());
-        System.out.println(s1.getMarksSub2());
-        System.out.println(s1.getMarksSub3());
-        System.out.println(s1.getMarksSub4());
-        System.out.println(s1.getMarksSub5());
-        System.out.println(s1.getTotal());
-        System.out.println(s1.getpercentage());
+
 
 
 
