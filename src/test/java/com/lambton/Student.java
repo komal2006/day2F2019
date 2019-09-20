@@ -163,5 +163,39 @@ public class Student
         }
         return true;
     }
+    public String calculateGrade()
+    {
+        String result;
+        if(percentage<=49)
+        {
+            result="E";
+        }
+        else if(percentage<=59)
+        {
+            result="D";
+        }
+        else if(percentage<=69)
+        {
+            result="C";
+        }
+        else if(percentage<=79)
+        {
+            result="B";
+        }
+        else if(percentage<=89)
+        {
+            result="B+";
+        }
+
+        else if(percentage<=95)
+        {
+            result="A";
+        }
+        else
+        {
+            result="A+";
+        }
+         return result;
+    }
 
 }
